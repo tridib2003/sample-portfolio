@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+/** root selector **/
+
+:root {
+  --primary-color: #018786;
+  --primary-variant: #03dac6;
+  --primary-color2: #bb86fc;
+  --surface-color1: #121212;
+  --surface-color2: #ffffff;
+  --surface-color3: #f3f4f6;
+  --error-color: #b00020;
+  --error-light: #cf6679;
+  padding: 1rem 2rem;
+}
+
+/** body **/
+
+body {
+  color: var(--surface-color1);
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--surface-color2);
+  margin: 0px;
+}
+
+/** headings **/
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+/** sub-headings **/
+
+.sub-heading {
+  color: var(--primary-color);
+}
+
+/** horizontal line **/
+
+hr {
+  margin: 2rem 0rem;
+}
+
+/** containers **/
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  max-width: 300px;
+  margin: auto;
+}
+
+/** links **/
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  color: var(--surface-color2);
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+}
+
+/** lists **/
+
+.ul-remove-bullet {
+  list-style: none;
+}
+
+.ul-inline-item {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+  background-color: var(--primary-color);
+  color: var(--surface-color2);
+  padding: 0.5rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.navigation .nav-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: var(--surface-color2);
+}
+
+.navigation .current-select {
+  font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+  padding: 2rem;
+}
+
+.hero-image {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-focus {
+  color: var(--primary-color);
+}
+
+/** section **/
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section-color {
+  background-color: var(--surface-color3);
+  border-radius: 2rem;
+}
+
+/** Pie-chart **/
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+/** footer **/
+
+.footer {
+  background-color: var(--primary-color2);
+  border-top-right-radius: 2rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
