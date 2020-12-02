@@ -6,6 +6,7 @@
   --primary-color: #018786;
   --primary-variant: #03dac6;
   --primary-color2: #bb86fc;
+  --primary-color3: yellowgreen;
   --surface-color1: #121212;
   --surface-color2: #ffffff;
   --surface-color3: #f3f4f6;
@@ -53,8 +54,9 @@ hr {
 }
 
 .container-center {
-  max-width: 700px;
+  max-width: 1000px;
   margin: auto;
+  text-align: center;
 }
 
 /** links **/
@@ -131,7 +133,7 @@ hr {
 }
 
 .hero .hero-heading .heading-focus {
-  color: yellowgreen;
+  color: var(--primary-color3);
 }
 
 /** section **/
@@ -146,6 +148,10 @@ hr {
 
 .section-color {
   background-color: var(--surface-color3);
+}
+
+.section .container .center {
+  text-align: center;
 }
 
 /** Pie-chart **/
@@ -171,4 +177,20 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .footer-credits {
+  margin: auto;
+  max-width: 160px;
+  font-weight: lighter;
+  font-size: small;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 2rem;
+  padding: 0.2rem;
 }
